@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Finish"
+        android:id="@+id/pictures_button_ok"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center_horizontal"
+            style="@style/button_text"
+            android:background="@drawable/button"/>
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Take picture"
+            android:id="@+id/call_camera"
+            android:layout_above="@id/pictures_button_ok"
+            android:layout_gravity="center_horizontal"
+            style="@style/button_text"
+            android:background="@drawable/button"/>
+
+    <!--<Button-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Sent mail SendGrid"-->
+        <!--android:id="@+id/pictures_to_email_button"-->
+        <!--android:layout_above="@id/call_camera"-->
+        <!--android:layout_gravity="center_horizontal" />-->
+
+        <GridView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/gridview"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:columnWidth="120dp"
+            android:numColumns="auto_fit"
+            android:verticalSpacing="5dp"
+            android:horizontalSpacing="5dp"
+            android:stretchMode="columnWidth"
+            android:layout_above="@id/call_camera"
+            android:gravity="center"
+            android:minHeight="100dp"
+            android:minWidth="100dp" />
+
+    </RelativeLayout>

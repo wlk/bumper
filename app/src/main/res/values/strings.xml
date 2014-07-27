@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Bumper</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="main_top">List of incidents</string>
+    <string name="main_button">Add new incidents</string>
+
+
+    <string name="victim_question_top">Is anyone injured</string>
+    <string name="victim_question_question">Is it possible that anyone is hurt?</string>
+
+    <string name="health_question_top">DUI question</string>
+    <string name="health_question_question">Does driver seem to be under influence of alcohol or drugs?</string>
+
+
+    <string name="emergency_call_top">Emergency call</string>
+    <string name="emergency_call_text">Please call emergency services and do not move vehicles</string>
+    <string name="emergency_call_call">Call</string>
+
+    <string name="photo_cars_position_top">Photograph Vehicles</string>
+    <string name="photo_cars_position_text">Without moving cars make photos how cars are positioned. Make sure that license plates are readable. Remember, it should be possible to reconstruct cars positions from photos.</string>
+
+    <string name="obstruct_top">Road obstruction</string>
+    <string name="obstruct_text">Do cars obstruct road? Do other cars have to stop?</string>
+
+    <string name="get_cars_away_top">Move cars</string>
+    <string name="get_cars_away_text">If it is possible, move cars to safe place.</string>
+
+    <string name="photo_location_top">Photograph location</string>
+    <string name="photo_location_text">Take photos of event location. Do not forget any detail. Photo street signs, crossroad and lights placement.</string>
+
+    <string name="photo_car_damage_top">Photograph cars</string>
+    <string name="photo_car_damage_text">Take photos of damaged cars. Do them from close distance and few from a couple of meters. Remember, more photos is better. Also, make a photo of car plates.</string>
+
+    <string name="photo_documents_top">Photograph documents</string>
+    <string name="photo_documents_text">Take photos of drivers documents. Make a photo of id, driver license, car\'s insurance and vehicle registration certificate. </string>
+
+
+    <string name="documents_check_top">Check documents</string>
+    <string name="documents_check_text">Did you found any errors in those documents? (wrong dates, incomplete data, missing signatures)</string>
+
+
+    <string name="address_enter">Address</string>
+    <string name="address_template">Your address</string>
+
+    <string name="roadside_question_top">Roadside assistance</string>
+    <string name="roadside_question_text">Do you want to call roadside assistance?</string>
+
+    <string name="roadside_top">Roadside assistance</string>
+    <string name="roadside_text">Call roadside assistance?</string>
+
+    <string name="insurance_top">Call Insurance company for roadside assistance</string>
+    <string name="insurance_text">Click phone icon and our Roadside assistance will contact you immediately</string>
+
+    <string name="donation_top">Donation</string>
+    <string name="donation_text">Do you want to donate one dollar?</string>
+
+    <string-array name="insurence_array">
+        <item>PZU</item>
+        <item>Warta</item>
+        <item>Hestia</item>
+        <item>HDI</item>
+        <item>Allianz</item>
+        <item>MTU</item>
+        <item>Compensa</item>
+        <item>Proama</item>
+        <item>AXA Direct</item>
+        <item>Link4</item>
+        <item>Liberty Direct</item>
+        <item>Concordia</item>
+        <item>InterRisk</item>
+        <item>Generali</item>
+        <item>PTU</item>
+        <item>Aiva</item>
+        <item>Benefia</item>
+        <item>mBank</item>
+        <item>Uniqa</item>
+        <item>Pocztowe TUW</item>
+        <item>Gothaer</item>
+    </string-array>
+
+
+    <string name="general_yes">Yes</string>
+    <string name="general_no">No</string>
+    <string name="general_continue">Done</string>
+    <string name="send_offenders_statement">Send Offender\'s Statement via email</string>
+    <string name="open_in_gmail">Open in Gmail</string>
+</resources>
